@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  font-family: 'Raleway';
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 70px;
+}
+.sub-title {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+header .container {
+  width: 80%;
+    height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+  line-height: 80px;
+  background-color: #fff;
+}
+header .logo {
+  float: left;
+}
+
+header .logo h1 {
+  float: left;
+  color: #333;
+}
+
+header .logo img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+header .nav {
+  float: right;
+  list-style: none;
+}
+
+header .nav li {
+  float: left;
+  padding: 0 10px;
+}
+
+header .nav li a {
+  color: #666;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header .nav li a:hover {
+  color: blue
+}
+
+#top {
+  padding: 50px 0;
+  background: url('/img/tonybackground.jpg');
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
+#top img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#about {
+  overflow: hidden;
+}
+
+.about-img {
+  float: left;
+  width: 50%;
+  height: 600px;
+  background: url('/img/about.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.about-contents {
+  float: right;
+  width: 50%;
+}
+
+.about-contents .inner {
+  padding: 50px;
+}
+
+.favorite-contents {
+  display: inline-block;
+  width: 200px;
+  margin: 25px;
+}
+
+.favorite-contents .img-hover {
+  position: relative;
+}
+
+.favorite .sub-title {
+  margin-bottom: 25px;
+}
+
+.favorite-contents .img-hover img {
+  width: 180px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.favorite-contents .img-hover h1 {
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.favorite-contents .img-hover:hover img {
+  transform: scale(1.1);
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.favorite-contents .img-hover:hover h1 {
+  opacity: 1;
+}
+
+.favorite-contents h3 {
+  margin-top: 10px;
+  text-align: center;
+  color: #666;
+}
